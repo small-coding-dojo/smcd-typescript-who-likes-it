@@ -1,0 +1,23 @@
+{
+  "name": "smcd-typescript-who-likes-it",
+  "version": "1.0.0",
+  "description": "source: https://www.codewars.com/kata/5266876b8f4bf2da9b000362/train/typescript",
+  "private": true,
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/small-coding-dojo/smcd-typescript-who-likes-it.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/small-coding-dojo/smcd-typescript-who-likes-it/issues"
+  },
+  "homepage": "https://github.com/small-coding-dojo/smcd-typescript-who-likes-it#readme",
+  "devDependencies": {
+    "typescript": "^5.2.2"
+  }
+}

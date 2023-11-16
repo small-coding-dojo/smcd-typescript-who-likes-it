@@ -1,4 +1,7 @@
 function likes(param: any[]) {
+    if (param.length == 2) {
+        return `${param[0]} and ${param[1]} like this`;
+    }
     if (param.length > 0) {
         return `${param[0]} likes this`;
     }
@@ -14,5 +17,11 @@ describe('first_test', () => {
     })
     it("Stefan likes this", () => {
         expect(likes(["Stefan"])).toBe("Stefan likes this");
+    })
+    it("Stefan and Bernhard like this", () => {
+        expect(likes(["Stefan", "Bernhard"])).toBe("Stefan and Bernhard like this");
+    })
+    it("Bernhard and Stefan like this", () => {
+        expect(likes(["Bernhard", "Stefan"])).toBe("Bernhard and Stefan like this");
     })
 });
